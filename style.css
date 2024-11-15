@@ -1,0 +1,118 @@
+/* For body */
+body{
+    background-color: rgba(0, 139, 139, 0.452);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+                       /* Nav bar section..... */
+.container{
+color: white;
+background-color: rgb(5, 5, 5);
+display:flex ;
+height: 70PX;
+}
+ul li{
+    display: inline;
+    padding: 40px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    padding: 20px;
+}
+nav{
+    padding-left: 50px;
+}
+.logo{
+    margin-left: 10px;
+}
+h1 span{
+    color: rgb(35, 103, 250);
+}
+.navbar :hover{
+    color: rgb(4, 148, 184);
+}
+.searchbar{
+    padding-top: 30px;
+    padding-left: 50px;
+    border: none;
+}
+.searchbar :hover{
+/* background-color: rgba(225, 250, 250, 0.945); */
+box-shadow: 0px 0px 5px 2px white;
+border: none;
+}
+
+/* ........ Main section........... */
+
+.box1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    margin-top: 0px;
+    border-radius: 15px;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.box1 h2{
+/* text-align: center; */
+text-decoration: none;
+}
+.boximg{
+ padding-left: 80px;
+
+}
+.boxes :hover{
+    /* box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.5); */
+
+}
+h3{
+    display: inline;
+}
+h2{
+    margin-bottom: 5px;
+}
+p{
+}
+.img{
+    background-image: url(./assets/DSCN0080-01-01.JPG);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.service{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0px 0px 10px  purple;
+}
+
+/* ,.......Footer section......... */
+
+.footer{        
+margin-top: 30px;
+    background-color: rgb(49, 46, 2);
+    color: white;
+    font-style: italic;
+    height: 100px;
+    
+}
+.footer p{
+    padding-top: 40px;
+}
+.footer{
+    display: inline-flex;
+    
+}
+.links{
+    display: inline;
+    
+}
